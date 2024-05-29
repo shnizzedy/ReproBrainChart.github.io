@@ -24,5 +24,5 @@ We found that the model, described by McElroy et al (2018), was the best option.
 
 
 <div style="text-align: center;">
-     <img src="/assets/images/misc/Figure_Harmonization_v1.png" width="850" height="850" />
+     <img src="{{ site.baseurl}}/assets/images/misc/Figure_Harmonization_v1.png" width="850" height="850" />
 </div>

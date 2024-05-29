@@ -14,7 +14,7 @@ Curabitur aliquam mattis felis, ut aliquam risus tempus nec.
 Quisque elementum nisi nec eleifend maximus.
 
 <figure style="text-align: center; width: 80%; margin-left: auto; margin-right: auto;">
-    <img class="img-fluid" src="/assets/images/blog/2024-05-14-satterthwaite-first.png" alt="Demo Image">
+    <img class="img-fluid" src="{{ site.baseurl}}/assets/images/blog/2024-05-14-satterthwaite-first.png" alt="Demo Image">
     <figcaption class="caption text-muted">
         To go places and do things that have never been done before – that’s what living is all about.
     </figcaption>

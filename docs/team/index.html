@@ -16,7 +16,7 @@ title: Team RBC
                 {% if member.image %}
                     {% assign image = member.image %}
                 {% else %}
-                    {% assign image = "/assets/images/team/placeholder-user.png" %}
+                    {% assign image = "{{ site.baseurl}}/assets/images/team/placeholder-user.png" %}
                 {% endif %}
                 <div class="media" style="align-items: start;">
 					<a class="pull-left" style="margin-right: 20px; width: 175px; height: 175px; border-radius: 50%; overflow: hidden;">
@@ -52,7 +52,7 @@ title: Team RBC
             {% if member.image %}
                 {% assign image = member.image %}
             {% else %}
-                {% assign image = "/assets/images/team/placeholder-user.png" %}
+                {% assign image = "{{ site.baseurl}}/assets/images/team/placeholder-user.png" %}
             {% endif %}
             <div class="media" style="align-items: start;">
                 <a class="pull-left" style="margin-right: 20px; width: 175px; height: 175px;">

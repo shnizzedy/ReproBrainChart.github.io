@@ -14,5 +14,5 @@ Critically, we provide fully harmonized measures of  quality control for both st
 
 
 <div style="text-align: center;">
-     <img src="/assets/images/misc/function_age_harmonized_website.png" width="1100" height="300" />
+     <img src="{{ site.baseurl}}/assets/images/misc/function_age_harmonized_website.png" width="1100" height="300" />
 </div>

@@ -5,7 +5,7 @@ author_profile: false
 ---
 
 <div style="text-align: center;">
-     <img src="/assets/images/logos/rbc_primary_logo.png" width="700" height="300" />
+     <img src="{{ site.baseurl}}/assets/images/logos/rbc_primary_logo.png" width="700" height="300" />
 </div>
 
 <br/>
@@ -20,7 +20,7 @@ author_profile: false
      </ol>
      <div class="carousel-inner">
           <div class="carousel-item active">
-               <img class="d-block w-100" src="/assets/images/banners/rbc_corticalthickness_v2.png" alt="First slide">
+               <img class="d-block w-100" src="{{ site.baseurl}}/assets/images/banners/rbc_corticalthickness_v2.png" alt="First slide">
                <!-- No text on carousel for now
                <div class="carousel-caption d-none d-md-block">
                <h5>{{ page.title }}</h5>
@@ -88,15 +88,14 @@ author_profile: false
      <br/>
 
      <div style="display: flex; justify-content: space-between; width: 100%; margin: auto;">
-          <img src="/assets/images/logos/university_of_pennsylvania.png" style="width: 60 px;height: 150px;" />
-          <img src="/assets/images/logos/CHOP.png" style="width: 60 px;height: 150px;" />
-          <img src="/assets/images/logos/child_mind_institute.png" style="width: 60 px;height: 150px;" />
-          <img src="/assets/images/logos/NKI.png" style="width: 60 px;height: 150px;" />
-          <img src="/assets/images/logos/CHOP.png" style="width: 60 px;height: 150px;" />
-          <img src="/assets/images/logos/beijing_normal_university.png" style="width: 80 px;height: 150px;" />
-          <img src="/assets/images/logos/columbia_university.png" style="width: 100 px; height: 150px;" />
-          <img src="/assets/images/logos/BHRC.png" style="width: 100 px; height: 150px;" />
-          <img src="/assets/images/team/placeholder-user.png" style="width: 100 px; height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/university_of_pennsylvania.png" style="width: 60 px;height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/child_mind_institute.png" style="width: 60 px;height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/NKI.png" style="width: 60 px;height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/CHOP.png" style="width: 60 px;height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/beijing_normal_university.png" style="width: 80 px;height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/columbia_university.png" style="width: 100 px; height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/logos/BHRC.png" style="width: 100 px; height: 150px;" />
+          <img src="{{ site.baseurl}}/assets/images/team/placeholder-user.png" style="width: 100 px; height: 150px;" />
      </div>
 
 </div>
@@ -108,5 +107,5 @@ author_profile: false
      <h2>RBC Downloads</h2>
      <br/>
 
-     <iframe src="/assets/dashboard.html" width="100%" height="550px" style="border: none;"></iframe>
+     <iframe src="{{ site.baseurl}}/assets/dashboard.html" width="100%" height="550px" style="border: none;"></iframe>
 </div>

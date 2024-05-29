@@ -9,7 +9,7 @@ author_profile: false
   {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
+{% if page.url != "{{ site.baseurl}}/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}
